@@ -717,29 +717,60 @@
 
 </div>
 
-<!-- ── SEE MORE BANNER ── -->
-<div style="position:relative;z-index:1;max-width:1100px;margin:0 auto 48px;padding:0 clamp(16px,5vw,64px);">
+<!-- ── SEE MORE BANNERS ── -->
+<div class="see-more-grid" style="position:relative;z-index:1;max-width:1100px;margin:0 auto 48px;padding:0 clamp(16px,5vw,64px);display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+
+  <!-- OddsRex -->
   <a href="https://oddsrex.com/crypto-casinos" target="_blank" rel="noopener nofollow sponsored"
-     style="display:flex;align-items:center;justify-content:space-between;gap:20px;
+     style="display:flex;align-items:center;justify-content:space-between;gap:16px;
             background:oklch(.075 .04 265 / .75);
             border:1px solid oklch(.75 .18 70 / .35);
-            padding:28px 36px;text-decoration:none;
+            padding:24px 28px;text-decoration:none;
             transition:border-color .2s,box-shadow .2s;
             position:relative;overflow:hidden;"
      onmouseover="this.style.borderColor='oklch(.75 .18 70 / .65)';this.style.boxShadow='0 0 28px oklch(.75 .18 70 / .12)'"
      onmouseout="this.style.borderColor='oklch(.75 .18 70 / .35)';this.style.boxShadow='none'">
     <div style="position:absolute;top:0;left:0;width:3px;height:100%;background:var(--gold);box-shadow:0 0 10px var(--gold);"></div>
     <div>
-      <div style="font-size:.65rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;">⭐ Full Directory</div>
-      <div style="font-family:var(--fh);font-size:1.1rem;font-weight:700;letter-spacing:.06em;color:var(--text);">See All Crypto Casinos →</div>
-      <div style="font-size:.75rem;color:var(--dim);margin-top:6px;">Complete list of reviewed &amp; rated crypto casinos at OddsRex</div>
+      <div style="font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:7px;">⭐ Full Directory</div>
+      <div style="font-family:var(--fh);font-size:.95rem;font-weight:700;letter-spacing:.06em;color:var(--text);">More Casinos at OddsRex →</div>
+      <div style="font-size:.7rem;color:var(--dim);margin-top:5px;">Reviewed &amp; rated crypto casinos</div>
     </div>
-    <div style="font-family:var(--fh);font-size:2.5rem;font-weight:900;
+    <div style="font-family:var(--fh);font-size:2rem;font-weight:900;
                 background:linear-gradient(100deg,var(--accent),var(--gold));
                 -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
                 flex-shrink:0;">→</div>
   </a>
+
+  <!-- WikiOne -->
+  <a href="https://wikione.org/casino/crypto-casinos" target="_blank" rel="noopener nofollow sponsored"
+     style="display:flex;align-items:center;justify-content:space-between;gap:16px;
+            background:oklch(.075 .04 265 / .75);
+            border:1px solid oklch(.72 .28 285 / .35);
+            padding:24px 28px;text-decoration:none;
+            transition:border-color .2s,box-shadow .2s;
+            position:relative;overflow:hidden;"
+     onmouseover="this.style.borderColor='oklch(.72 .28 285 / .65)';this.style.boxShadow='0 0 28px oklch(.72 .28 285 / .12)'"
+     onmouseout="this.style.borderColor='oklch(.72 .28 285 / .35)';this.style.boxShadow='none'">
+    <div style="position:absolute;top:0;left:0;width:3px;height:100%;background:var(--accent);box-shadow:0 0 10px var(--accent);"></div>
+    <div>
+      <div style="font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:7px;">📖 More Info</div>
+      <div style="font-family:var(--fh);font-size:.95rem;font-weight:700;letter-spacing:.06em;color:var(--text);">Crypto Casino Guide at WikiOne →</div>
+      <div style="font-size:.7rem;color:var(--dim);margin-top:5px;">In-depth info &amp; more crypto casinos</div>
+    </div>
+    <div style="font-family:var(--fh);font-size:2rem;font-weight:900;
+                background:linear-gradient(100deg,var(--accent),var(--cyan));
+                -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+                flex-shrink:0;">→</div>
+  </a>
+
 </div>
+
+<style>
+@media (max-width: 768px) {
+  .see-more-grid { grid-template-columns: 1fr !important; }
+}
+</style>
 
 <!-- ── WHY CRYPTO ── -->
 <div class="section-head">
